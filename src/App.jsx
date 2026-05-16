@@ -1,0 +1,303 @@
+export default function ShivaSaiSchoolWebsite() {
+  return (
+    <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
+      {/* Navbar */}
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <div className="flex items-center gap-3">
+            <img
+              src="/logo.png"
+              alt="SHIVA SAI SCHOOL"
+              className="h-14 w-14 rounded-full object-cover"
+            />
+            <div>
+              <h1 className="text-xl font-bold tracking-wide text-[#0b1f3a]">
+                SHIVA SAI SCHOOL
+              </h1>
+              <p className="text-sm text-slate-600">
+                Bridging Knowledge and Wisdom
+              </p>
+            </div>
+          </div>
+
+          <nav className="hidden items-center gap-8 md:flex">
+            <a href="#home" className="font-medium hover:text-[#c9a227]">
+              Home
+            </a>
+
+            <div className="group relative">
+              <button className="font-medium hover:text-[#c9a227]">
+                MENU
+              </button>
+
+              <div className="absolute right-0 mt-3 hidden min-w-[220px] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl group-hover:block">
+                {[
+                  'About School',
+                  'Academics',
+                  'Facilities',
+                  'Gallery',
+                  'Events',
+                  'Contact',
+                ].map((item) => (
+                  <a
+                    key={item}
+                    href="#"
+                    className="block rounded-xl px-4 py-3 text-sm hover:bg-slate-100"
+                  >
+                    {item}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      {/* Floating News */}
+      <div className="sticky top-[82px] z-40 overflow-hidden bg-[#0b1f3a] py-2 text-white">
+        <div className="animate-marquee whitespace-nowrap text-sm font-medium">
+          Admissions Open for 2026 • Transport Facility Available • Intensive Navodaya Coaching • English Medium • Safe Campus •
+        </div>
+      </div>
+
+      {/* Hero Section */}
+      <section
+        id="home"
+        className="relative flex h-[75vh] items-center overflow-hidden"
+      >
+        <img
+          src="/hero-school.jpg"
+          alt="School Campus"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0b1f3a]/80 to-black/30" />
+
+        <div className="relative z-10 mx-auto max-w-7xl px-6 text-white">
+          <div className="max-w-3xl">
+            <span className="mb-4 inline-block rounded-full border border-white/30 bg-white/10 px-5 py-2 text-sm backdrop-blur">
+              Since 2004
+            </span>
+
+            <h1 className="text-5xl font-bold leading-tight md:text-7xl">
+              Bridging Knowledge and Wisdom
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-lg text-slate-200 md:text-xl">
+              Providing quality education since 2004 with strong discipline,
+              modern learning, and a safe academic environment.
+            </p>
+
+            <div className="mt-10 flex flex-wrap gap-4">
+              <button className="rounded-full bg-[#c9a227] px-8 py-4 font-semibold text-black transition hover:scale-105">
+                Admissions Open
+              </button>
+
+              <button className="rounded-full border border-white/40 bg-white/10 px-8 py-4 font-semibold backdrop-blur transition hover:bg-white hover:text-black">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Principal Section */}
+      <section className="bg-white py-24">
+        <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2 md:items-center">
+          <div className="text-center">
+            <img
+              src="/principal.jpg"
+              alt="Principal"
+              className="mx-auto h-[380px] w-[300px] rounded-3xl object-cover shadow-2xl"
+            />
+
+            <h2 className="mt-6 text-2xl font-bold text-[#0b1f3a]">
+              Principal Name
+            </h2>
+
+            <p className="mt-2 text-[#c9a227]">
+              M.A, B.Ed, Educational Leadership
+            </p>
+          </div>
+
+          <div>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+              Principal's Message
+            </p>
+
+            <h3 className="text-4xl font-bold text-[#0b1f3a]">
+              Nurturing Excellence Through Education
+            </h3>
+
+            <p className="mt-6 leading-8 text-slate-700">
+              At SHIVA SAI SCHOOL, we believe education is the foundation for a
+              successful and responsible future. Our mission is to create a
+              disciplined, inspiring, and academically strong environment where
+              every child can grow with confidence and values.
+            </p>
+
+            <p className="mt-5 leading-8 text-slate-700">
+              We focus on holistic development through modern teaching methods,
+              activity-based learning, and personal attention for every student.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Highlights */}
+      <section className="bg-[#0b1f3a] py-20 text-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {[
+              'English Medium',
+              'Safe Campus',
+              'CCTV Security',
+              'Transport Facility',
+              'Activity-Based Learning',
+              'Intensive Navodaya Coaching',
+              'Since 2004',
+              'Strong Discipline',
+            ].map((item) => (
+              <div
+                key={item}
+                className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur"
+              >
+                <h3 className="text-xl font-semibold">{item}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-[#fdfbf7] py-24">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+              FAQ
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
+              Frequently Asked Questions
+            </h2>
+          </div>
+
+          <div className="mt-14 space-y-5">
+            {[
+              'What classes are available?',
+              'Is transport available?',
+              'What is the admission process?',
+              'What are the school timings?',
+              'Is English medium available?',
+            ].map((faq) => (
+              <details
+                key={faq}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              >
+                <summary className="cursor-pointer text-lg font-semibold text-[#0b1f3a]">
+                  {faq}
+                </summary>
+
+                <p className="mt-4 leading-7 text-slate-600">
+                  Content will be added later from the admin dashboard.
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="bg-white py-24">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+              Why Choose Us
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
+              Academic Excellence With Strong Values
+            </h2>
+          </div>
+
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            {[
+              'Safe Campus',
+              'Activity-Based Education',
+              'Strong Discipline',
+              'Affordable Education',
+            ].map((item) => (
+              <div
+                key={item}
+                className="rounded-3xl border border-slate-200 bg-[#fdfbf7] p-8 text-center shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
+              >
+                <h3 className="text-xl font-bold text-[#0b1f3a]">{item}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section className="bg-[#0b1f3a] py-24 text-white">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+              Contact Us
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold">
+              Get In Touch With SHIVA SAI SCHOOL
+            </h2>
+
+            <div className="mt-10 space-y-5 text-lg text-slate-200">
+              <p>📍 Ramareddy, Kamareddy, Telangana</p>
+              <p>📞 9912972535</p>
+              <p>✉️ shivasaipublicschool1@gmail.com</p>
+              <p>🕒 Monday – Saturday: 10:00 AM – 4:30 PM</p>
+              <p>📸 Instagram: @shivasaipublicschool_2004</p>
+            </div>
+
+            <div className="mt-10 flex flex-wrap gap-4">
+              <button className="rounded-full bg-[#c9a227] px-6 py-3 font-semibold text-black">
+                WhatsApp
+              </button>
+
+              <button className="rounded-full border border-white/30 px-6 py-3 font-semibold">
+                Call Now
+              </button>
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/10 backdrop-blur">
+            <div className="flex h-full min-h-[350px] items-center justify-center text-center text-slate-200">
+              Google Maps Integration Here
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-white/10 bg-[#081426] py-8 text-center text-sm text-slate-400">
+        © 2026 SHIVA SAI SCHOOL. All Rights Reserved.
+      </footer>
+
+      <style>{`
+        .animate-marquee {
+          display: inline-block;
+          animation: marquee 18s linear infinite;
+        }
+
+        @keyframes marquee {
+          from {
+            transform: translateX(100%);
+          }
+
+          to {
+            transform: translateX(-100%);
+          }
+        }
+      `}</style>
+    </div>
+  )
+}
