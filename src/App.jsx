@@ -112,11 +112,11 @@ export default function ShivaSaiSchoolWebsite() {
             />
 
             <h2 className="mt-6 text-2xl font-bold text-[#0b1f3a]">
-              Principal Name
+              A. Bhaira goud
             </h2>
 
             <p className="mt-2 text-[#c9a227]">
-              M.A, B.Ed, Educational Leadership
+              M.A. (English), B.Ed.
             </p>
           </div>
 
