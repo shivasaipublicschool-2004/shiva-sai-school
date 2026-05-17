@@ -259,13 +259,21 @@ export default function ShivaSaiSchoolWebsite() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <button className="rounded-full bg-[#c9a227] px-6 py-3 font-semibold text-black">
-                WhatsApp
-              </button>
+              <a
+  href="https://wa.me/919912972535"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full bg-[#fc9a27] px-6 py-3 font-semibold text-black inline-block"
+>
+  WhatsApp
+</a>
 
-              <button className="rounded-full border border-white/30 px-6 py-3 font-semibold">
-                Call Now
-              </button>
+<a
+  href="tel:+919912972535"
+  className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-block"
+>
+  Call Now
+</a>
             </div>
           </div>
 
