@@ -206,7 +206,7 @@ export default function ShivaSaiSchoolWebsite() {
 
           <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 
-      {/* FAQ */}
+  {/* FAQ */}
       <section className="bg-[#fdfbf7] py-24">
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center">
