@@ -259,9 +259,9 @@ export default function ShivaSaiSchoolWebsite() {
   </p>
 
   <p className="flex items-center gap-3">
-    <i className="fas fa-phone-alt text-green-400 text-xl"></i>
-    9912972535
-  </p>
+  <i className="fas fa-phone-alt text-green-400 text-xl w-6"></i>
+  <span>9912972535</span>
+</p>
 
   <p className="flex items-center gap-3">
     <i className="fas fa-envelope text-blue-400 text-xl w-6"></i>
