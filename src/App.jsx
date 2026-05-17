@@ -53,22 +53,22 @@ export default function ShivaSaiSchoolWebsite() {
               </button>
 
               <div className="absolute right-0 mt-3 hidden min-w-[220px] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl group-hover:block">
-                {[
-                  'About School',
-                  'Academics',
-                  'Facilities',
-                  'Gallery',
-                  'Events',
-                  'Contact',
+               {[
+                  { name: "About School", link: "#about" },
+                  { name: "Academics", link: "#academics" },
+                  { name: "Facilities", link: "#facilities" },
+                  { name: "Gallery", link: "#gallery" },
+                  { name: "Events", link: "#gallery" },
+                  { name: "Contact", link: "#contact" },
                 ].map((item) => (
-                  <a
-                    key={item}
-                    href="#"
-                    className="block rounded-xl px-4 py-3 text-sm hover:bg-slate-100"
-                  >
-                    {item}
-                  </a>
-                ))}
+                <a
+                key={item.name}
+                href={item.link}
+                className="block rounded-xl px-4 py-3 text-sm hover:bg-slate-100"
+                >
+             {item.name}
+           </a>
+          ))}
               </div>
             </div>
           </nav>
@@ -167,7 +167,7 @@ export default function ShivaSaiSchoolWebsite() {
       </section>
 
       {/* Highlights */}
-      <section className="bg-[#0b1f3a] py-20 text-white">
+      <section id="academics" className="bg-[#0b1f3a] py-20 text-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {[
@@ -190,7 +190,7 @@ export default function ShivaSaiSchoolWebsite() {
       </section>
      
       {/* Why Choose Us */}
-      <section className="bg-white py-24">
+      <section id="facilities" className="bg-white py-24">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -272,7 +272,7 @@ export default function ShivaSaiSchoolWebsite() {
       </section>
 
  {/* FAQ */}
-      <section className="bg-[#fdfbf7] py-24">
+      <section id="gallery" className="bg-[#fdfbf7] py-24">
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -323,7 +323,7 @@ export default function ShivaSaiSchoolWebsite() {
       </section>      
 
       {/* Contact */}
-      <section className="bg-[#0b1f3a] py-24 text-white">
+      <section id="contact" className="bg-[#0b1f3a] py-24 text-white">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -378,7 +378,7 @@ export default function ShivaSaiSchoolWebsite() {
 </a>
 <a
   href="tel:+919912972535"
-  className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-block flex items-center gap-2"
+  className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-flex items-center gap-2"
 >
   <i className="fas fa-phone"></i>
   Call Now
