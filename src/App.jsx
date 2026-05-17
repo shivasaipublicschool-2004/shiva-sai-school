@@ -267,11 +267,15 @@ export default function ShivaSaiSchoolWebsite() {
     </h3>
   </div>
 
-</div>
+  </div>
         </div>
       </section>
 
  {/* Gallery */}
+    <section id="gallery" className="bg-white py-24">
+    <div className="mx-auto max-w-7xl px-6">
+    <section id="gallery" className="bg-white py-24">
+    <div className="mx-auto max-w-7xl px-6">  
     <div className="text-center">
       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
         Gallery
@@ -368,9 +372,7 @@ export default function ShivaSaiSchoolWebsite() {
           </div>
         </div>
       </section> 
-      <section id="gallery" className="bg-white py-24">
-  <div className="mx-auto max-w-7xl px-6">
-
+      
       {/* Contact */}
       <section id="contact" className="bg-[#0b1f3a] py-24 text-white">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2">
