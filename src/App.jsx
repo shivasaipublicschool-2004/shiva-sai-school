@@ -52,7 +52,7 @@ export default function ShivaSaiSchoolWebsite() {
                 MENU
               </button>
 
-              <div className="absolute right-0 mt-3 hidden min-w-[220px] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl group-hover:block">
+              <div className="absolute right-0 mt-3 min-w-[220px] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl opacity-0 invisible transition-all duration-300 group-hover:visible group-hover:opacity-100">
                {[
                   { name: "About School", link: "#about" },
                   { name: "Academics", link: "#academics" },
