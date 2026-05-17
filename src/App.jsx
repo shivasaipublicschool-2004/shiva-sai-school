@@ -270,9 +270,10 @@ export default function ShivaSaiSchoolWebsite() {
   WhatsApp
 </a>
 <a
-  href="tel:+919912972535"
-  className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-block"
+  href="tel:+91912972535"
+  className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-block flex items-center gap-2"
 >
+  <i className="fas fa-phone"></i>
   Call Now
 </a>
             </div>
