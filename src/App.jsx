@@ -190,6 +190,21 @@ export default function ShivaSaiSchoolWebsite() {
           </div>
         </div>
       </section>
+     
+      {/* Why Choose Us */}
+      <section className="bg-white py-24">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+              Why Choose Us
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
+              Academic Excellence With Strong Values
+            </h2>
+          </div>
+
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 
       {/* FAQ */}
       <section className="bg-[#fdfbf7] py-24">
@@ -227,22 +242,7 @@ export default function ShivaSaiSchoolWebsite() {
             ))}
           </div>
         </div>
-      </section>
-
-      {/* Why Choose Us */}
-      <section className="bg-white py-24">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
-              Why Choose Us
-            </p>
-
-            <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
-              Academic Excellence With Strong Values
-            </h2>
-          </div>
-
-          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      </section>      
 
   {/* Eco */}
   <div
