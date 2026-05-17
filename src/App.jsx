@@ -17,6 +17,7 @@ import campus2 from "./assets/gallery/campus/campus2.jpeg";
 import campus3 from "./assets/gallery/campus/campus3.jpeg";
 import campus4 from "./assets/gallery/campus/campus4.jpeg";
 import campus5 from "./assets/gallery/campus/campus5.jpeg";
+import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
 const ecoGallery = [ecoImg, eco1];
 
@@ -316,6 +317,11 @@ export default function ShivaSaiSchoolWebsite() {
       <img
         src={campus5}
         alt="Affordable"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+      />
+      <img
+        src={campus6}
+        alt="Campus"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
