@@ -202,10 +202,10 @@ export default function ShivaSaiSchoolWebsite() {
             </p>
           </div>
         </div>
-      </section>
+    </section>
 
-      {/* Highlights */}
-      <section id="academics" className="bg-[#0b1f3a] py-20 text-white">
+       {/* Highlights */}
+       <section id="academics" className="bg-[#0b1f3a] py-20 text-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {[
