@@ -263,11 +263,10 @@ export default function ShivaSaiSchoolWebsite() {
   href="https://wa.me/919912972535"
   target="_blank"
   rel="noopener noreferrer"
-  className="rounded-full bg-[#fc9a27] px-6 py-3 font-semibold text-black inline-block"
+  className="rounded-full bg-green-500 px-6 py-3 font-semibold text-white inline-block"
 >
   WhatsApp
 </a>
-
 <a
   href="tel:+919912972535"
   className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-block"
