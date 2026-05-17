@@ -222,20 +222,80 @@ export default function ShivaSaiSchoolWebsite() {
           </div>
 
           <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              'Eco-Friendly Surroundings',
-              'Activity-Based Learning',
-              'Affordable Education',
-              'Spacious Playground',
-            ].map((item) => (
-              <div
-                key={item}
-                className="rounded-3xl border border-slate-200 bg-[#fdfbf7] p-8 text-center shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
-              >
-                <h3 className="text-xl font-bold text-[#0b1f3a]">{item}</h3>
-              </div>
-            ))}
-          </div>
+
+  {/* Eco */}
+  <div
+    onClick={() =>
+      window.open(
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "_blank"
+      )
+    }
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+  >
+    <img
+      src="/src/assets/gallery/eco/Eco-friendly.png"
+      alt="Eco"
+      className="mb-4 h-40 w-full rounded-2xl object-cover"
+    />
+
+    <h3 className="text-xl font-bold text-[#0b1f3a]">
+      Eco-Friendly Surroundings
+    </h3>
+  </div>
+
+  {/* Activity */}
+  <div
+    onClick={() =>
+      window.open(
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+        "_blank"
+      )
+    }
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+  >
+    <img
+      src="/src/assets/gallery/activity/activity based learning.png"
+      alt="Activity"
+      className="mb-4 h-40 w-full rounded-2xl object-cover"
+    />
+
+    <h3 className="text-xl font-bold text-[#0b1f3a]">
+      Activity-Based Learning
+    </h3>
+  </div>
+
+  {/* Affordable */}
+  <div
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+  >
+    <h3 className="text-xl font-bold text-[#0b1f3a]">
+      Affordable Education
+    </h3>
+  </div>
+
+  {/* Playground */}
+  <div
+    onClick={() =>
+      window.open(
+        "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9",
+        "_blank"
+      )
+    }
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+  >
+    <img
+      src="/src/assets/gallery/playground/Spacious ground.png"
+      alt="Playground"
+      className="mb-4 h-40 w-full rounded-2xl object-cover"
+    />
+
+    <h3 className="text-xl font-bold text-[#0b1f3a]">
+      Spacious Playground
+    </h3>
+  </div>
+
+</div>
         </div>
       </section>
 
