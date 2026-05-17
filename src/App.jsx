@@ -1,4 +1,7 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import ecoImg from "./assets/gallery/eco/eco.jpeg";
+import activityImg from "./assets/gallery/activity/activity.mp4";
+import playgroundImg from "./assets/gallery/playground/playground.jpeg";  
 export default function ShivaSaiSchoolWebsite() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
@@ -234,7 +237,7 @@ export default function ShivaSaiSchoolWebsite() {
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
-      src="/src/assets/gallery/eco/Eco-friendly.png"
+      src={ecoImg}
       alt="Eco"
       className="mb-4 h-40 w-full rounded-2xl object-cover"
     />
@@ -254,11 +257,14 @@ export default function ShivaSaiSchoolWebsite() {
     }
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
-    <img
-      src="/src/assets/gallery/activity/activity based learning.png"
-      alt="Activity"
-      className="mb-4 h-40 w-full rounded-2xl object-cover"
-    />
+   <video
+  src={activityImg}
+  className="mb-4 h-40 w-full rounded-2xl object-cover"
+  autoPlay
+  muted
+  loop
+  playsInline
+/>
 
     <h3 className="text-xl font-bold text-[#0b1f3a]">
       Activity-Based Learning
@@ -285,7 +291,7 @@ export default function ShivaSaiSchoolWebsite() {
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
-      src="/src/assets/gallery/playground/Spacious ground.png"
+      src={playgroundImg}
       alt="Playground"
       className="mb-4 h-40 w-full rounded-2xl object-cover"
     />
@@ -354,7 +360,7 @@ export default function ShivaSaiSchoolWebsite() {
   WhatsApp
 </a>
 <a
-  href="tel:+91912972535"
+  href="tel:+919912972535"
   className="rounded-full border border-white/30 px-6 py-3 font-semibold inline-block flex items-center gap-2"
 >
   <i className="fas fa-phone"></i>
