@@ -129,6 +129,46 @@ export default function ShivaSaiSchoolWebsite() {
         </div>
       </section>
 
+      {/* Notice Board */}
+      <section className="bg-[#fdfbf7] py-16">
+        <div className="mx-auto max-w-6xl px-6">
+
+         <div className="rounded-3xl border border-yellow-200 bg-white shadow-2xl overflow-hidden">
+
+         {/* Header */}
+          <div className="flex items-center gap-3 bg-[#0b1f3a] px-6 py-4 text-white">
+           <i className="fas fa-bullhorn text-yellow-400 text-2xl"></i>
+
+            <h2 className="text-2xl font-bold tracking-wide">
+              School Notice Board
+           </h2>
+         </div>
+
+      {/* Animated Notices */}
+      <div className="relative h-56 overflow-hidden bg-gradient-to-b from-white to-slate-100">
+
+        <div className="animate-marquee space-y-6 px-6 py-6 text-lg font-semibold text-slate-700">
+
+          <p>📢 Admissions Open for Academic Year 2026–27</p>
+
+          <p>🏆 Annual Sports Day Celebrations on January 28</p>
+
+          <p>📝 FA-2 Examination starts from December 12</p>
+
+          <p>🎉 Sankranthi Holidays from January 10 to January 15</p>
+
+          <p>👨‍👩‍👧 Parent-Teacher Meeting this Saturday</p>
+
+          <p>📚 Special Navodaya Coaching Classes Available</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
       {/* Principal Section */}
       <section id="about" className="bg-white py-24">
         <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2 md:items-center">
