@@ -1,3 +1,4 @@
+import "@fortawesome/fontawesome-free/css/all.min.css";
 export default function ShivaSaiSchoolWebsite() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
@@ -263,8 +264,9 @@ export default function ShivaSaiSchoolWebsite() {
   href="https://wa.me/919912972535"
   target="_blank"
   rel="noopener noreferrer"
-  className="rounded-full bg-green-500 px-6 py-3 font-semibold text-white inline-block"
+  className="rounded-full bg-green-500 px-6 py-3 font-semibold text-white inline-flex items-center gap-2 hover:bg-green-600 transition-all duration-300 shadow-lg"
 >
+  <i className="fab fa-whatsapp text-xl"></i>
   WhatsApp
 </a>
 <a
