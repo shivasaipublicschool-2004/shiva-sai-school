@@ -338,7 +338,7 @@ export default function ShivaSaiSchoolWebsite() {
 
   <p className="flex items-center gap-3">
     <i className="fas fa-map-marker-alt text-red-500 text-xl w-6"></i>
-    Ramareddy, Kamareddy, Telangana
+    Ramareddy, Kamareddy district, Telangana
   </p>
 
  <p className="flex items-center gap-3">
