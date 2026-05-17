@@ -84,7 +84,7 @@ export default function ShivaSaiSchoolWebsite() {
       {/* Floating News */}
       <div className="sticky top-[82px] z-40 overflow-hidden bg-[#0b1f3a] py-2 text-white">
         <div className="animate-marquee whitespace-nowrap text-sm font-medium">
-          Admissions Open for this Year • Transport Facility Available • Intensive Navodaya Coaching 
+          Admissions Open for this Year     • Transport Facility Available     • Intensive Navodaya Coaching 
         </div>
       </div>
 
