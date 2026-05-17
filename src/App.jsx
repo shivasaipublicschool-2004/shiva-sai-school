@@ -275,7 +275,7 @@ export default function ShivaSaiSchoolWebsite() {
 
   <p className="flex items-center gap-3">
     <i className="fab fa-instagram text-pink-500 text-xl w-6"></i>
-    Instagram: @shivasaipublicschool_2004
+    Instagram: shivasaipublicschool_2004
   </p>
 
 </div>
