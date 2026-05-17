@@ -172,10 +172,10 @@ export default function ShivaSaiSchoolWebsite() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {[
               'Computer Lab',
-              'CCTV Security',
-              'Transport Facility',
-              'Indoor & Outdoor Sports',
               'Intensive Navodaya Coaching',
+              'Indoor & Outdoor Sports',
+               'Transport Facility',
+                 'CCTV Security',
               '20+ Years of Experience',
             ].map((item) => (
               <div
