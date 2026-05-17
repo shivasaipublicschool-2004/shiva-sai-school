@@ -58,7 +58,6 @@ export default function ShivaSaiSchoolWebsite() {
                   { name: "Academics", link: "#academics" },
                   { name: "Facilities", link: "#facilities" },
                   { name: "Gallery", link: "#gallery" },
-                  { name: "Events", link: "#gallery" },
                   { name: "Contact", link: "#contact" },
                 ].map((item) => (
                 <a
@@ -321,7 +320,7 @@ export default function ShivaSaiSchoolWebsite() {
  </section>     
  
   {/* FAQ */}
-        <section className="bg-[#fdfbf7] py-24">
+        <section className="bg-[#fdfbf7] py-24">  
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
