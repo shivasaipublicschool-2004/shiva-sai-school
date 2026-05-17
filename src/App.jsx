@@ -291,7 +291,7 @@ export default function ShivaSaiSchoolWebsite() {
     <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
       <img
-        src={ecoImg}
+        src={campus1}
         alt="Eco"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
@@ -302,7 +302,7 @@ export default function ShivaSaiSchoolWebsite() {
       />
 
       <img
-        src={playgroundImg}
+        src={campus3}
         alt="Playground"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
