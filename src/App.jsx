@@ -262,7 +262,7 @@ export default function ShivaSaiSchoolWebsite() {
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
-      src={campus3}
+      src={playground1}
       alt="Playground"
       className="mb-4 h-40 w-full rounded-2xl object-cover"
     />
