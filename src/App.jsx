@@ -12,6 +12,12 @@ import playground1 from "./assets/gallery/playground/playground1.jpeg";
 
 import affordable1 from "./assets/gallery/affordable/affordable.jpeg";
 
+import campus1 from "./assets/gallery/campus/campus1.jpeg";
+import campus2 from "./assets/gallery/campus/campus2.jpeg";
+import campus3 from "./assets/gallery/campus/campus3.jpeg";
+import campus4 from "./assets/gallery/campus/campus4.jpeg";
+import campus5 from "./assets/gallery/campus/campus5.jpeg";
+
 const ecoGallery = [ecoImg, eco1];
 
 const playgroundGallery = [playgroundImg, playground1];
@@ -208,8 +214,7 @@ export default function ShivaSaiSchoolWebsite() {
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
-      src={ecoImg}
-      alt="Eco"
+     src={ecoImg}
       className="mb-4 h-40 w-full rounded-2xl object-cover"
     />
 
@@ -256,7 +261,7 @@ export default function ShivaSaiSchoolWebsite() {
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
-      src={playgroundImg}
+      src={campus3}
       alt="Playground"
       className="mb-4 h-40 w-full rounded-2xl object-cover"
     />
@@ -292,8 +297,7 @@ export default function ShivaSaiSchoolWebsite() {
       />
 
       <img
-        src={eco1}
-        alt="Eco"
+        src={campus2}
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
@@ -304,13 +308,13 @@ export default function ShivaSaiSchoolWebsite() {
       />
 
       <img
-        src={playground1}
+        src={campus4}
         alt="Playground"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
       <img
-        src={affordable1}
+        src={campus5}
         alt="Affordable"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
