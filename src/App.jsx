@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import ecoImg from "./assets/gallery/eco/eco.jpeg";
@@ -8,7 +8,7 @@ import activityImg from "./assets/gallery/activity/activity.mp4";
 import activityVideo2 from "./assets/gallery/activity/activity1.mp4";
 
 import playgroundImg from "./assets/gallery/playground/playground.jpeg";
-import playground1 from "./assets/gallery/playground/playground.jpeg";
+import playground1 from "./assets/gallery/playground/playground1.jpeg";
 
 import affordable1 from "./assets/gallery/affordable/affordable.jpeg";
 
@@ -246,12 +246,6 @@ export default function ShivaSaiSchoolWebsite() {
 
   {/* Eco */}
   <div
-    onClick={() =>
-      window.open(
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-        "_blank"
-      )
-    }
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
@@ -267,12 +261,6 @@ export default function ShivaSaiSchoolWebsite() {
 
   {/* Activity */}
   <div
-    onClick={() =>
-      window.open(
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-        "_blank"
-      )
-    }
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
    <video
@@ -293,6 +281,12 @@ export default function ShivaSaiSchoolWebsite() {
   <div
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
+    <img
+     src={affordable1}
+     alt="Affordable"
+     className="mb-4 h-40 w-full rounded-2xl object-cover"
+     />
+
     <h3 className="text-xl font-bold text-[#0b1f3a]">
       Affordable Education
     </h3>
@@ -300,13 +294,6 @@ export default function ShivaSaiSchoolWebsite() {
 
   {/* Playground */}
   <div
-  onClick={() =>
-    window.open(
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9",
-      "_blank"
-    )
-  }
-    
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
