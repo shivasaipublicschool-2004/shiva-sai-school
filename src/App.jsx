@@ -303,8 +303,21 @@ export default function ShivaSaiSchoolWebsite() {
                 </summary>
 
                 <p className="mt-4 leading-7 text-slate-600">
-                  Content will be added later from the admin dashboard.
-                </p>
+                       {faq === "What classes are available?" &&
+                          "We offer classes from Nursery to 7th class with experienced faculty and activity-based learning."}
+
+                       {faq === "Is transport available?" &&
+                          "Yes, school transport facility is available for student convenience."}
+
+                       {faq === "What is the admission process?" &&
+                         "Parents can visit the school campus, collect the admission form, submit required documents, and complete the registration process."}
+
+                       {faq === "What are the school timings?" &&
+                         "School timings are Monday to Saturday from 10:00 AM to 4:30 PM."}
+      
+                       {faq === "Is English medium available?" &&
+                         "Yes, SHIVA SAI SCHOOL provides quality English medium education with strong academic values."}
+                   </p>
               </details>
             ))}
           </div>
