@@ -320,7 +320,56 @@ export default function ShivaSaiSchoolWebsite() {
             ))}
           </div>
         </div>
-      </section>      
+      </section> 
+      <section className="bg-white py-24">
+  <div className="mx-auto max-w-7xl px-6">
+
+    {/* Gallery */}
+    <div className="text-center">
+      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+        Gallery
+      </p>
+
+      <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
+        School Campus Gallery
+      </h2>
+    </div>
+
+    <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+      <img
+        src={ecoImg}
+        alt="Eco"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+      />
+
+      <img
+        src={eco1}
+        alt="Eco"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+      />
+
+      <img
+        src={playgroundImg}
+        alt="Playground"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+      />
+
+      <img
+        src={playground1}
+        alt="Playground"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+      />
+
+      <img
+        src={affordable1}
+        alt="Affordable"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+      />
+
+    </div>
+  </div>
+</section>     
 
       {/* Contact */}
       <section id="contact" className="bg-[#0b1f3a] py-24 text-white">
