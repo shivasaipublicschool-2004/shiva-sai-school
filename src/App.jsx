@@ -206,44 +206,6 @@ export default function ShivaSaiSchoolWebsite() {
 
           <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 
-  {/* FAQ */}
-      <section className="bg-[#fdfbf7] py-24">
-        <div className="mx-auto max-w-4xl px-6">
-          <div className="text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
-              FAQ
-            </p>
-
-            <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
-              Frequently Asked Questions
-            </h2>
-          </div>
-
-          <div className="mt-14 space-y-5">
-            {[
-              'What classes are available?',
-              'Is transport available?',
-              'What is the admission process?',
-              'What are the school timings?',
-              'Is English medium available?',
-            ].map((faq) => (
-              <details
-                key={faq}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <summary className="cursor-pointer text-lg font-semibold text-[#0b1f3a]">
-                  {faq}
-                </summary>
-
-                <p className="mt-4 leading-7 text-slate-600">
-                  Content will be added later from the admin dashboard.
-                </p>
-              </details>
-            ))}
-          </div>
-        </div>
-      </section>      
-
   {/* Eco */}
   <div
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
@@ -310,6 +272,44 @@ export default function ShivaSaiSchoolWebsite() {
 </div>
         </div>
       </section>
+
+ {/* FAQ */}
+      <section className="bg-[#fdfbf7] py-24">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+              FAQ
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
+              Frequently Asked Questions
+            </h2>
+          </div>
+
+          <div className="mt-14 space-y-5">
+            {[
+              'What classes are available?',
+              'Is transport available?',
+              'What is the admission process?',
+              'What are the school timings?',
+              'Is English medium available?',
+            ].map((faq) => (
+              <details
+                key={faq}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              >
+                <summary className="cursor-pointer text-lg font-semibold text-[#0b1f3a]">
+                  {faq}
+                </summary>
+
+                <p className="mt-4 leading-7 text-slate-600">
+                  Content will be added later from the admin dashboard.
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>      
 
       {/* Contact */}
       <section className="bg-[#0b1f3a] py-24 text-white">
