@@ -271,9 +271,7 @@ export default function ShivaSaiSchoolWebsite() {
         </div>
       </section>
 
- {/* Gallery */}
-    <section id="gallery" className="bg-white py-24">
-    <div className="mx-auto max-w-7xl px-6">
+    {/* Gallery */}
     <section id="gallery" className="bg-white py-24">
     <div className="mx-auto max-w-7xl px-6">  
     <div className="text-center">
