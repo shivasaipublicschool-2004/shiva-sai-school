@@ -174,9 +174,9 @@ export default function ShivaSaiSchoolWebsite() {
               'Computer Lab',
               'CCTV Security',
               'Transport Facility',
-              'Indoor & Outdoor Sports'
+              'Indoor & Outdoor Sports',
               'Intensive Navodaya Coaching',
-              '20+ Years of Experience'
+              '20+ Years of Experience',
             ].map((item) => (
               <div
                 key={item}
