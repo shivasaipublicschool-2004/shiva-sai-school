@@ -259,7 +259,7 @@ export default function ShivaSaiSchoolWebsite() {
   </p>
 
  <p className="flex items-center gap-3">
-  <i className="fas fa-phone-alt text-green-400 text-xl w-6"></i>
+  <i className="fas fa-phone text-green-400 text-xl w-6 rotate-90"></i>
   <span>9912972535</span>
 </p>
 
