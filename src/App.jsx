@@ -124,7 +124,7 @@ export default function ShivaSaiSchoolWebsite() {
       </section>
 
       {/* Principal Section */}
-      <section className="bg-white py-24">
+      <section id="about" className="bg-white py-24">
         <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2 md:items-center">
           <div className="text-center">
             <img
