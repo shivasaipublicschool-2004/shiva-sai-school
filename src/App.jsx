@@ -3,7 +3,6 @@ import ecoImg from "./assets/gallery/eco/eco.jpeg";
 import activityImg from "./assets/gallery/activity/activity.mp4";
 import playgroundImg from "./assets/gallery/playground/playground.jpeg";  
 import eco1 from "./assets/gallery/eco/eco1.jpeg";
-import eco1 from "./assets/gallery/eco/eco1.jpeg";
 import affordable1 from "./assets/gallery/affordable/affordable.jpeg";
 import playground1 from "./assets/gallery/playground/playground.jpeg";
 import activityVideo2 from "./assets/gallery/activity/activity1.mp4";
