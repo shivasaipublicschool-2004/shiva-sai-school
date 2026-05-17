@@ -1,11 +1,24 @@
+import { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+
 import ecoImg from "./assets/gallery/eco/eco.jpeg";
-import activityImg from "./assets/gallery/activity/activity.mp4";
-import playgroundImg from "./assets/gallery/playground/playground.jpeg";  
 import eco1 from "./assets/gallery/eco/eco1.jpeg";
-import affordable1 from "./assets/gallery/affordable/affordable.jpeg";
-import playground1 from "./assets/gallery/playground/playground.jpeg";
+
+import activityImg from "./assets/gallery/activity/activity.mp4";
 import activityVideo2 from "./assets/gallery/activity/activity1.mp4";
+
+import playgroundImg from "./assets/gallery/playground/playground.jpeg";
+import playground1 from "./assets/gallery/playground/playground.jpeg";
+
+import affordable1 from "./assets/gallery/affordable/affordable.jpeg";
+
+const ecoGallery = [ecoImg, eco1];
+
+const playgroundGallery = [playgroundImg, playground1];
+
+const activityGallery = [activityImg, activityVideo2];
+
+const affordableGallery = [affordable1];
 
 export default function ShivaSaiSchoolWebsite() {
   return (
