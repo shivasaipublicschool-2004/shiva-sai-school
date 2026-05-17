@@ -272,7 +272,7 @@ export default function ShivaSaiSchoolWebsite() {
       </section>
 
  {/* FAQ */}
-      <section id="gallery" className="bg-[#fdfbf7] py-24">
+        <section className="bg-[#fdfbf7] py-24">
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -321,7 +321,7 @@ export default function ShivaSaiSchoolWebsite() {
           </div>
         </div>
       </section> 
-      <section className="bg-white py-24">
+      <section id="gallery" className="bg-white py-24">
   <div className="mx-auto max-w-7xl px-6">
 
     {/* Gallery */}
