@@ -267,12 +267,7 @@ export default function ShivaSaiSchoolWebsite() {
     <i className="fas fa-envelope text-blue-400 text-xl w-6"></i>
     shivasaipublicschool1@gmail.com
   </p>
-
-  <p className="flex items-center gap-3">
-    <i className="fas fa-clock text-yellow-400 text-xl w-6"></i>
-    Monday – Saturday: 10:00 AM – 4:30 PM
-  </p>
-
+  
   <p className="flex items-center gap-3">
     <i className="fab fa-instagram text-pink-500 text-xl w-6"></i>
     Instagram: shivasaipublicschool_2004
