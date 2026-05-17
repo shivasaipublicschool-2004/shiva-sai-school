@@ -226,7 +226,7 @@ export default function ShivaSaiSchoolWebsite() {
               'Eco-Friendly Surroundings',
               'Activity-Based Learning',
               'Affordable Education',
-              'Spacious Playground'
+              'Spacious Playground',
             ].map((item) => (
               <div
                 key={item}
