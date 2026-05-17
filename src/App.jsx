@@ -2,6 +2,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import ecoImg from "./assets/gallery/eco/eco.jpeg";
 import activityImg from "./assets/gallery/activity/activity.mp4";
 import playgroundImg from "./assets/gallery/playground/playground.jpeg";  
+import eco1 from "./assets/gallery/eco/eco1.jpeg";
+import eco1 from "./assets/gallery/eco/eco1.jpeg";
+import affordable1 from "./assets/gallery/affordable/affordable.jpeg";
+import playground1 from "./assets/gallery/playground/playground.jpeg";
+import activityVideo2 from "./assets/gallery/activity/activity1.mp4";
+
 export default function ShivaSaiSchoolWebsite() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
@@ -282,12 +288,13 @@ export default function ShivaSaiSchoolWebsite() {
 
   {/* Playground */}
   <div
-    onClick={() =>
-      window.open(
-        "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9",
-        "_blank"
-      )
-    }
+  onClick={() =>
+    window.open(
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9",
+      "_blank"
+    )
+  }
+    
     className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
   >
     <img
