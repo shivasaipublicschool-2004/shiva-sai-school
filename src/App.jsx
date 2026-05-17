@@ -271,7 +271,7 @@ export default function ShivaSaiSchoolWebsite() {
 
           <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/10 backdrop-blur">
             <div className="flex h-full min-h-[350px] items-center justify-center text-center text-slate-200">
-              Google Maps Integration Here
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3785.5548092327517!2d78.373791!3d18.413102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDI0JzQ3LjIiTiA3OMKwMjInMjUuNyJF!5e0!3m2!1sen!2sin!4v1779009012960!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
