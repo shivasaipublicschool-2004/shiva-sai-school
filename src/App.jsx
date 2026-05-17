@@ -252,12 +252,33 @@ export default function ShivaSaiSchoolWebsite() {
             </h2>
 
             <div className="mt-10 space-y-5 text-lg text-slate-200">
-              <p>📍 Ramareddy, Kamareddy, Telangana</p>
-              <p>📞 9912972535</p>
-              <p>✉️ shivasaipublicschool1@gmail.com</p>
-              <p>🕒 Monday – Saturday: 10:00 AM – 4:30 PM</p>
-              <p>📸 Instagram: @shivasaipublicschool_2004</p>
-            </div>
+
+  <p className="flex items-center gap-3">
+    <i className="fas fa-map-marker-alt text-red-500 text-xl w-6"></i>
+    Ramareddy, Kamareddy, Telangana
+  </p>
+
+  <p className="flex items-center gap-3">
+    <i className="fas fa-phone-alt text-green-400 text-xl w-6"></i>
+    9912972535
+  </p>
+
+  <p className="flex items-center gap-3">
+    <i className="fas fa-envelope text-blue-400 text-xl w-6"></i>
+    shivasaipublicschool1@gmail.com
+  </p>
+
+  <p className="flex items-center gap-3">
+    <i className="fas fa-clock text-yellow-400 text-xl w-6"></i>
+    Monday – Saturday: 10:00 AM – 4:30 PM
+  </p>
+
+  <p className="flex items-center gap-3">
+    <i className="fab fa-instagram text-pink-500 text-xl w-6"></i>
+    Instagram: @shivasaipublicschool_2004
+  </p>
+
+</div>
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
