@@ -151,14 +151,6 @@ export default function ShivaSaiSchoolWebsite() {
 
           <p>📢 Admissions Open for Academic Year 2026–27</p>
 
-          <p>🏆 Annual Sports Day Celebrations on January 28</p>
-
-          <p>📝 FA-2 Examination starts from December 12</p>
-
-          <p>🎉 Sankranthi Holidays from January 10 to January 15</p>
-
-          <p>👨‍👩‍👧 Parent-Teacher Meeting this Saturday</p>
-
           <p>📚 Special Navodaya Coaching Classes Available</p>
 
         </div>
