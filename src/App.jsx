@@ -207,6 +207,15 @@ export default function ShivaSaiSchoolWebsite() {
        {/* Highlights */}
        <section id="academics" className="bg-[#0b1f3a] py-20 text-white">
         <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-14 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
+                Academics
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold text-white">
+                Our Academic Facilities
+            </h2>
+         </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {[
               'Computer Lab',
