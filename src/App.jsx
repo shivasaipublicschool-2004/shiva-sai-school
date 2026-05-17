@@ -268,10 +268,18 @@ export default function ShivaSaiSchoolWebsite() {
     shivasaipublicschool1@gmail.com
   </p>
   
-  <p className="flex items-center gap-3">
-    <i className="fab fa-instagram text-pink-500 text-xl w-6"></i>
-    Instagram: shivasaipublicschool_2004
-  </p>
+ <p className="flex items-center gap-3">
+  <i className="fab fa-instagram text-pink-500 text-xl w-6"></i>
+
+  <a
+    href="https://instagram.com/shivasaipublicschool_2004"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-pink-400 transition"
+  >
+    Instagram: @shivasaipublicschool_2004
+  </a>
+</p>
 
 </div>
 
