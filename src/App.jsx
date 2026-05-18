@@ -281,7 +281,7 @@ return (
 
         <div className="animate-marquee space-y-6 px-6 py-6 text-lg font-semibold text-slate-700">
 
-          <p>📢 Admissions Open for Academic Year 2026–27</p>
+          <p>{notice}</p>
 
           <p>📚 Special Navodaya Coaching Classes Available</p>
 
