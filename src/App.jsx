@@ -21,6 +21,9 @@ import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
 export default function ShivaSaiSchoolWebsite() {
   const [mobileMenu, setMobileMenu] = useState(false);
+       window.onscroll = () => {
+       setMobileMenu(false);
+      };
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
       
