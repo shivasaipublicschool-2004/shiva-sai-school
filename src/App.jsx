@@ -52,7 +52,12 @@ return (
               </p>
             </div>
           </div>
-
+        <button
+           onClick={() => setShowAdmin(!showAdmin)}
+           className="rounded-full bg-[#c9a227] px-4 py-2 text-sm font-semibold text-black hover:scale-105 transition"
+            >
+                Admin
+        </button>
            <button
               onClick={() => setMobileMenu(!mobileMenu)}
               className="text-3xl text-[#0b1f3a] md:hidden"
@@ -173,7 +178,28 @@ return (
 
         </div>
       </header>
+  {showAdmin && (
+      <div className="bg-white border-b border-slate-300 p-6 shadow-xl">
+      <h2 className="text-2xl font-bold text-[#0b1f3a] mb-4">
+      Admin Dashboard
+      </h2>
 
+      <div className="space-y-4">
+       <div>
+        <label className="block font-semibold mb-2">
+           Change Notice Board Text
+        </label>
+
+         <input
+           type="text"
+           value={notice}
+           onChange={(e) => setNotice(e.target.value)}
+           className="w-full rounded-xl border border-slate-300 p-3 outline-none"
+        />
+        </div>
+      </div>
+    </div>
+)}
       {/* Floating News */}
       <div className="sticky top-[82px] z-40 overflow-hidden bg-[#0b1f3a] py-2 text-white">
         <div className="animate-marquee whitespace-nowrap text-sm font-medium">
@@ -687,3 +713,4 @@ return (
     </div>
   )
 }
+
