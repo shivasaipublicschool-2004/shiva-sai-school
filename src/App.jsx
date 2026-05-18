@@ -433,7 +433,7 @@ export default function ShivaSaiSchoolWebsite() {
 
       <img
         src={campus3}
-      onClick={() => setSelectedImage(campus3)}
+        onClick={() => setSelectedImage(campus3)}
         alt="Playground"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
