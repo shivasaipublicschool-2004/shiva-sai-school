@@ -84,51 +84,63 @@ export default function ShivaSaiSchoolWebsite() {
 
               <div className="flex flex-col p-6 space-y-4">
                 <a
-                   href="#home"
-                   onClick={() => setMobileMenu(false)}
-                   className="text-lg font-medium"
-                   >  
-                     Home
+                     href="#home"
+                     onClick={() => {
+                     setMobileMenu(false);
+                     }}
+                      className="text-lg font-medium"
+                      >
+                       Home
                 </a>
                 <a
-                  href="#about"
-                  onClick={() => setMobileMenu(false)}
-                  className="text-lg font-medium"
+                   href="#about"
+                   onClick={() => {
+                   setMobileMenu(false);
+                 }}
+                 className="text-lg font-medium"
                  >
                    About School
                 </a>
-
                 <a
-                  href="#academics"
-                  onClick={() => setMobileMenu(false)}
+                    href="#academics"
+                    onClick={() => {
+                    setMobileMenu(false);
+                   }}
+                   className="text-lg font-medium"
+                    >
+                      Academics
+                </a>
+               
+                <a
+                   href="#facilities"
+                   onClick={() => {
+                   setMobileMenu(false);
+                  }}
                   className="text-lg font-medium"
                    >
-                   Academics
-               </a>
+                     Facilities
+                </a>  
+              
 
-               <a
-                  href="#facilities"
-                  onClick={() => setMobileMenu(false)}
+                <a
+                   href="#gallery"
+                   onClick={() => {
+                   setMobileMenu(false);
+                  }}
                   className="text-lg font-medium"
-                  >
-                   Facilities
-               </a>
+                   >
+                     Gallery
+                </a>
 
-               <a
-                  href="#gallery"
-                  onClick={() => setMobileMenu(false)}
+                <a
+                   href="#contact"
+                   onClick={() => {
+                   setMobileMenu(false);
+                  }}
                   className="text-lg font-medium"
-                  >
-                   Gallery
-               </a>
-
-              <a
-                 href="#contact"
-                 onClick={() => setMobileMenu(false)}
-                 className="text-lg font-medium"
-                 >
-                  Contact
-              </a>
+                   >
+                     Contact
+                </a>
 
     </div>
   </div>
