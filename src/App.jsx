@@ -83,15 +83,20 @@ export default function ShivaSaiSchoolWebsite() {
             <div className="absolute left-0 top-full z-50 w-full bg-white shadow-xl md:hidden">
 
               <div className="flex flex-col p-6 space-y-4">
-                <a
-                     href="#home"
-                     onClick={() => {
-                     setMobileMenu(false);
-                     }}
-                      className="text-lg font-medium"
-                      >
+               <a
+                  href="#home"
+                  onClick={(e) => {
+                  e.preventDefault();
+                  setMobileMenu(false);
+
+                  document
+                  .querySelector("#home")
+                  ?.scrollIntoView({ behavior: "smooth" });
+                 }}
+                 className="text-lg font-medium"
+                  >
                        Home
-                </a>
+               </a>
                 <a
                    href="#about"
                    onClick={(e) => {
