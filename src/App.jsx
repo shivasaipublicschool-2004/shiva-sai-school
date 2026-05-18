@@ -31,7 +31,9 @@ export default function ShivaSaiSchoolWebsite() {
   );  
   
 
-const [showAdmin, setShowAdmin] = useState(false);
+       const [showAdmin, setShowAdmin] = useState(false);
+       const [adminPassword, setAdminPassword] = useState("");
+       const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
        window.onscroll = () => {
        setMobileMenu(false);
       };
@@ -56,12 +58,25 @@ return (
               </p>
             </div>
           </div>
-        <button
-           onClick={() => setShowAdmin(!showAdmin)}
-           className="rounded-full bg-[#c9a227] px-4 py-2 text-sm font-semibold text-black hover:scale-105 transition"
-            >
-                Admin
-        </button>
+      <button
+          onClick={() => {
+          if (!isAdminLoggedIn) {
+          const password = prompt("Enter Admin Password");
+
+          if (password === "bhairagoud7011") {
+             setIsAdminLoggedIn(true);
+             setShowAdmin(true);
+          } else {
+             alert("Wrong Password");
+         }
+        } else {
+           setShowAdmin(!showAdmin);
+          }
+      }}
+      className="rounded-full bg-[#c9a227] px-4 py-2 text-sm font-semibold text-black hover:scale-105 transition"
+        >
+            Admin
+      </button>
            <button
               onClick={() => setMobileMenu(!mobileMenu)}
               className="text-3xl text-[#0b1f3a] md:hidden"
