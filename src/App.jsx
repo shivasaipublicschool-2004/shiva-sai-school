@@ -382,8 +382,7 @@ return (
             </h3>
 
               <div className="mb-2 text-6xl font-bold leading-none text-[#c9a227]/30">
-                 “
-              
+                 “</div>    
               <p className="mt-2 leading-8 text-slate-700">
               At SHIVA SAI SCHOOL, we believe education is the foundation for a
               successful and responsible future. Our mission is to create a
@@ -392,7 +391,7 @@ return (
               We focus on holistic development through modern teaching methods,
               activity-based learning, and personal attention for every student.
             </p>
-           </div> 
+          
           </div>
         </div>
     </section>
