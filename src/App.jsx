@@ -388,8 +388,12 @@ return (
               At SHIVA SAI SCHOOL, we believe education is the foundation for a
               successful and responsible future. Our mission is to create a
               disciplined, inspiring, and academically strong environment where
-              every child can grow with confidence and values.
+              every child can grow with confidence and values. 
+              We focus on holistic development through modern teaching methods,
+              activity-based learning, and personal attention for every student.
             </p>
+
+            
             <p className="mt-5 leading-8 text-slate-700">
               We focus on holistic development through modern teaching methods,
               activity-based learning, and personal attention for every student.
