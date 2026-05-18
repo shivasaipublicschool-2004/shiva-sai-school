@@ -196,7 +196,7 @@ return (
 
          <input
            type="text"
-           value={notice1}
+           value={notice}
            onChange={(e) => setNotice(e.target.value)}
            className="w-full rounded-xl border border-slate-300 p-3 outline-none"
         />
@@ -297,7 +297,7 @@ return (
 
         <div className="animate-marquee space-y-6 px-6 py-6 text-lg font-semibold text-slate-700">
 
-          <p>{notice1}</p>
+          <p>{notice}</p>
 
           <p>{notice2}</p>
 
