@@ -34,44 +34,50 @@ export default function ShivaSaiSchoolWebsite() {
   );  
   
 
-       const [showAdmin, setShowAdmin] = useState(false);
-       const [adminPassword, setAdminPassword] = useState("");
-       const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
-       const [whyTitle1, setWhyTitle1] = useState(
-        "Academic Excellence With Strong Values"
-    );
+     const [showAdmin, setShowAdmin] = useState(false);
+     const [adminPassword, setAdminPassword] = useState("");
+     const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
+
+     const [whyTitle1, setWhyTitle1] = useState(
+      "Academic Excellence With Strong Values"
+   );
+
+    const [loading, setLoading] = useState(true);
+
        window.onscroll = () => {
        setMobileMenu(false);
-      };
-
-        useEffect(() => {
-        useEffect(() => {
-        const timer = setTimeout(() => {
-        setLoading(false);
-      }, 2500);
-      return () => clearTimeout(timer);
+  };
+ 
+       useEffect(() => {
+       AOS.init({
+       duration: 1000,
+       once: true,
+  });
 }, []);
-        AOS.init({
-        duration: 1000,
-        once: true,
-       });
-   }, []);
-   if (loading) {
-  return (
-    <div className="flex h-screen items-center justify-center bg-[#0b1f3a]">
-      <div className="text-center">
-        <h1 className="animate-pulse text-5xl font-bold tracking-widest text-[#c9a227]">
-           SHIVA SAI SCHOOL
-        </h1>
 
-        <p className="mt-4 text-lg text-white">
-          Loading...
-        </p>
-      </div>
-    </div>
-  );
-}
-return (
+useEffect(() => {
+  const timer = setTimeout(() => {
+    setLoading(false);
+  }, 2500);
+
+  return () => clearTimeout(timer);
+}, []);
+
+      if (loading) {
+         return (
+          <div className="flex h-screen items-center justify-center bg-[#0b1f3a]">
+            <div className="text-center">
+              <h1 className="animate-pulse text-5xl font-bold tracking-widest text-[#c9a227]">
+                  SHIVA SAI SCHOOL
+              </h1>
+
+          <p className="mt-4 text-lg text-white">
+                    Loading...
+          </p>
+       </div>
+     </div>
+   );
+ }
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
 
       {/* Navbar */}
