@@ -51,8 +51,11 @@ export default function ShivaSaiSchoolWebsite() {
             </div>
           </div>
 
-            <button className="text-3xl text-[#0b1f3a] md:hidden">
-              ☰
+           <button
+              onClick={() => setMobileMenu(!mobileMenu)}
+              className="text-3xl text-[#0b1f3a] md:hidden"
+              >
+                ☰
             </button>
 
           <nav className="hidden items-center gap-8 md:flex">
