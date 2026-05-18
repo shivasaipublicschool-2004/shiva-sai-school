@@ -537,41 +537,41 @@ return (
         src={campus1}
         onClick={() => setSelectedImage(campus1)}
         alt="Eco"
-        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(201,162,39,0.6)]"
       />
 
       <img
         src={campus2}
         onClick={() => setSelectedImage(campus2)}
         alt="Campus"
-        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(201,162,39,0.6)]"
       />
 
       <img
         src={campus3}
         onClick={() => setSelectedImage(campus3)}
         alt="Playground"
-        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(201,162,39,0.6)]"
       />
 
       <img
         src={campus4}
         onClick={() => setSelectedImage(campus4)}
         alt="Playground"
-        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(201,162,39,0.6)]"
       />
 
       <img
         src={campus5}
         onClick={() => setSelectedImage(campus5)}
         alt="Affordable"
-        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(201,162,39,0.6)]"
       />
       <img
         src={campus6}
         onClick={() => setSelectedImage(campus6)}
         alt="Campus"
-        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
+        className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(201,162,39,0.6)]"
       />
 
      </div>
