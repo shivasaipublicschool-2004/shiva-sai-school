@@ -94,12 +94,17 @@ export default function ShivaSaiSchoolWebsite() {
                 </a>
                 <a
                    href="#about"
-                   onClick={() => {
+                   onClick={(e) => {
+                   e.preventDefault();
                    setMobileMenu(false);
-                 }}
-                 className="text-lg font-medium"
-                 >
-                   About School
+
+                   document
+                   .querySelector("#about")
+                   ?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="text-lg font-medium"
+                   >
+                      About School
                 </a>
                 <a
                     href="#academics"
