@@ -19,14 +19,6 @@ import campus4 from "./assets/gallery/campus/campus4.jpeg";
 import campus5 from "./assets/gallery/campus/campus5.jpeg";
 import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
-const ecoGallery = [ecoImg, eco1];
-
-const playgroundGallery = [playgroundImg, playground1];
-
-const activityGallery = [activityImg, activityVideo2];
-
-const affordableGallery = [affordable1];
-
 export default function ShivaSaiSchoolWebsite() {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
