@@ -61,21 +61,35 @@ useEffect(() => {
   return () => clearTimeout(timer);
 }, []);
 
-      if (loading) {
-         return (
-          <div className="flex h-screen items-center justify-center bg-[#0b1f3a]">
-            <div className="text-center">
-              <h1 className="animate-pulse text-5xl font-bold tracking-widest text-[#c9a227]">
-                  SHIVA SAI SCHOOL
-              </h1>
+     if (loading) {
+      return (
+      <div className="flex h-screen flex-col items-center justify-center bg-[#0b1f3a]">
 
-          <p className="mt-4 text-lg text-white">
-                    Loading...
-          </p>
+         {/* Rotating Ring */}
+         <div className="relative flex items-center justify-center">
+
+          <div className="absolute h-40 w-40 animate-spin rounded-full border-4 border-[#c9a227] border-t-transparent"></div>
+
+         {/* Logo */}
+         <img
+             src="/logo.png"
+             alt="School Logo"
+             className="h-28 w-28 rounded-full object-cover shadow-[0_0_40px_rgba(201,162,39,0.8)] animate-pulse"
+            />
+         </div>
+
+         {/* School Name */}
+           <h1 className="mt-10 animate-pulse text-5xl font-bold tracking-[0.3em] text-[#c9a227]">
+                 SHIVA SAI SCHOOL
+           </h1>
+
+         {/* Loading Text */}
+           <p className="mt-4 text-lg tracking-widest text-white">
+                 Loading Experience...
+           </p>
        </div>
-     </div>
-   );
- }
+    );
+  }
     return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
 
