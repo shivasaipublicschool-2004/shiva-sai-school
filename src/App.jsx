@@ -92,20 +92,36 @@ export default function ShivaSaiSchoolWebsite() {
                    About School
                 </a>
 
-               <a href="#academics" className="text-lg font-medium">
+                <a
+                  href="#academics"
+                  onClick={() => setMobileMenu(false)}
+                  className="text-lg font-medium"
+                   >
                    Academics
                </a>
 
-               <a href="#facilities" className="text-lg font-medium">
-                  Facilities
+               <a
+                  href="#facilities"
+                  onClick={() => setMobileMenu(false)}
+                  className="text-lg font-medium"
+                  >
+                   Facilities
                </a>
 
-               <a href="#gallery" className="text-lg font-medium">
-                  Gallery
+               <a
+                  href="#gallery"
+                  onClick={() => setMobileMenu(false)}
+                  className="text-lg font-medium"
+                  >
+                   Gallery
                </a>
 
-              <a href="#contact" className="text-lg font-medium">
-                 Contact
+              <a
+                 href="#contact"
+                 onClick={() => setMobileMenu(false)}
+                 className="text-lg font-medium"
+                 >
+                  Contact
               </a>
 
     </div>
@@ -371,6 +387,7 @@ export default function ShivaSaiSchoolWebsite() {
 
       <img
         src={campus2}
+        alt="Campus"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
