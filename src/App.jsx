@@ -24,6 +24,7 @@ import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
 export default function ShivaSaiSchoolWebsite() {
      const [mobileMenu, setMobileMenu] = useState(false);
+     const [loading, setLoading] = useState(true);
     const [selectedImage, setSelectedImage] = useState(null);
     const [notice, setNotice] = useState(
     "📢 Admissions Open for Academic Year 2026–27"
@@ -44,11 +45,32 @@ export default function ShivaSaiSchoolWebsite() {
       };
 
         useEffect(() => {
+        useEffect(() => {
+        const timer = setTimeout(() => {
+        setLoading(false);
+      }, 2500);
+      return () => clearTimeout(timer);
+}, []);
         AOS.init({
         duration: 1000,
         once: true,
        });
    }, []);
+   if (loading) {
+  return (
+    <div className="flex h-screen items-center justify-center bg-[#0b1f3a]">
+      <div className="text-center">
+        <h1 className="animate-pulse text-5xl font-bold tracking-widest text-[#c9a227]">
+           SHIVA SAI SCHOOL
+        </h1>
+
+        <p className="mt-4 text-lg text-white">
+          Loading...
+        </p>
+      </div>
+    </div>
+  );
+}
 return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
 
