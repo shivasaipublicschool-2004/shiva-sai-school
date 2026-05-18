@@ -20,7 +20,7 @@ import campus5 from "./assets/gallery/campus/campus5.jpeg";
 import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
 export default function ShivaSaiSchoolWebsite() {
-     [mobileMenu, setMobileMenu] = useState(false);
+     const [mobileMenu, setMobileMenu] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
        window.onscroll = () => {
        setMobileMenu(false);
