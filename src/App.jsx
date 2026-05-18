@@ -380,8 +380,12 @@ return (
             <h3 className="text-4xl font-bold text-[#0b1f3a]">
               Nurturing Excellence Through Education
             </h3>
-
-            <p className="mt-6 leading-8 text-slate-700">
+              
+            <div className="text-7xl font-bold text-[#c9a227]/30 absolute -mt-6">
+               “
+            </div>
+            
+            <p className="relative mt-6 leading-8 text-slate-700 pl-10">
               At SHIVA SAI SCHOOL, we believe education is the foundation for a
               successful and responsible future. Our mission is to create a
               disciplined, inspiring, and academically strong environment where
