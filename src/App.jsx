@@ -66,7 +66,7 @@ return (
           if (!isAdminLoggedIn) {
           const password = prompt("Enter Admin Password");
 
-          if (password === "0") {
+          if (password === "bhairagoud7011") {
              setIsAdminLoggedIn(true);
              setShowAdmin(true);
           } else {
