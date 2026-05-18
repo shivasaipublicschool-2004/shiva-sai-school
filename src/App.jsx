@@ -159,7 +159,7 @@ export default function ShivaSaiSchoolWebsite() {
               </button>
 
               <button className="rounded-full border border-white/40 bg-white/10 px-8 py-4 font-semibold backdrop-blur transition hover:bg-white hover:text-black">
-                Contact Us
+                Our Alumni
               </button>
             </div>
           </div>
