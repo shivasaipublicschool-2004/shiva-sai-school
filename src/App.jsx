@@ -20,7 +20,7 @@ import campus5 from "./assets/gallery/campus/campus5.jpeg";
 import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
 export default function ShivaSaiSchoolWebsite() {
-    const [mobileMenu, setMobileMenu] = useState(false);
+     [mobileMenu, setMobileMenu] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
        window.onscroll = () => {
        setMobileMenu(false);
@@ -419,35 +419,41 @@ export default function ShivaSaiSchoolWebsite() {
 
       <img
         src={campus1}
+        onClick={() => setSelectedImage(campus1)}
         alt="Eco"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
       <img
         src={campus2}
+        onClick={() => setSelectedImage(campus2)}
         alt="Campus"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
       <img
         src={campus3}
+      onClick={() => setSelectedImage(campus3)}
         alt="Playground"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
       <img
         src={campus4}
+        onClick={() => setSelectedImage(campus4)}
         alt="Playground"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
 
       <img
         src={campus5}
+        onClick={() => setSelectedImage(campus5)}
         alt="Affordable"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
       <img
         src={campus6}
+        onClick={() => setSelectedImage(campus6)}
         alt="Campus"
         className="h-72 w-full rounded-3xl object-cover shadow-xl transition duration-300 hover:scale-105"
       />
