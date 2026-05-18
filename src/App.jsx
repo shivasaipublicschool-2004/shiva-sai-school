@@ -34,6 +34,9 @@ export default function ShivaSaiSchoolWebsite() {
        const [showAdmin, setShowAdmin] = useState(false);
        const [adminPassword, setAdminPassword] = useState("");
        const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
+       const [whyTitle1, setWhyTitle1] = useState(
+        "Academic Excellence With Strong Values"
+    );
        window.onscroll = () => {
        setMobileMenu(false);
       };
@@ -418,7 +421,7 @@ return (
             </p>
 
             <h2 className="mt-4 text-4xl font-bold text-[#0b1f3a]">
-              Academic Excellence With Strong Values
+                 {whyTitle1}
             </h2>
           </div>
 
