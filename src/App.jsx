@@ -593,7 +593,26 @@ export default function ShivaSaiSchoolWebsite() {
      </div>
   </section>
 
-      {selectedImage && (
+    {selectedImage && (
+    <div
+        className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-6 animate-fadeIn"
+        >
+  {/* Close Button */}
+      <button
+      onClick={() => setSelectedImage(null)}
+      className="absolute right-6 top-6 text-5xl font-bold text-white transition hover:scale-110"
+     >
+       ×
+      </button>
+
+  {/* Popup Image */}
+     <img
+       src={selectedImage}
+       alt="Selected"
+       className="max-h-[90vh] max-w-[90vw] rounded-3xl shadow-2xl animate-zoomIn"
+      />
+   </div>
+)}
   <div
     className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-6"
     onClick={() => setSelectedImage(null)}
