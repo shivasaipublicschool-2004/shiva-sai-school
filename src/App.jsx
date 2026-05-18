@@ -450,7 +450,7 @@ return (
 
   {/* Eco */}
   <div
-    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20 hover:shadow-[0_0_30px_rgba(201,162,39,0.5)]"
   >
     <img
      src={ecoImg}
@@ -464,7 +464,7 @@ return (
 
   {/* Activity */}
   <div
-    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20 hover:shadow-[0_0_30px_rgba(201,162,39,0.5)]"
   >
    <video
   src={activityImg}
@@ -482,7 +482,7 @@ return (
 
   {/* Affordable */}
   <div
-    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20 hover:shadow-[0_0_30px_rgba(201,162,39,0.5)]"
   >
     <img
      src={affordable1}
@@ -497,7 +497,7 @@ return (
 
   {/* Playground */}
   <div
-    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20"
+    className="cursor-pointer rounded-3xl border border-white/20 bg-white/10 backdrop-blur-lg p-8 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-white/20 hover:shadow-[0_0_30px_rgba(201,162,39,0.5)]"
   >
     <img
       src={playground1}
