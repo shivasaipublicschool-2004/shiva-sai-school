@@ -83,7 +83,13 @@ export default function ShivaSaiSchoolWebsite() {
             </div>
           </nav>
           {mobileMenu && (
-            <div className="absolute left-0 top-full z-50 w-full bg-white shadow-xl md:hidden">
+            <div
+               className={`absolute left-0 top-full z-50 w-full bg-white shadow-xl md:hidden transition-all duration-300 ${
+               mobileMenu
+               ? "opacity-100 translate-y-0"
+               : "opacity-0 -translate-y-5 pointer-events-none"
+              }`}
+>
 
               <div className="flex flex-col p-6 space-y-4">
                <a
