@@ -30,6 +30,7 @@ const affordableGallery = [affordable1];
 export default function ShivaSaiSchoolWebsite() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
+      
       {/* Navbar */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
@@ -48,6 +49,10 @@ export default function ShivaSaiSchoolWebsite() {
               </p>
             </div>
           </div>
+
+            <button className="text-3xl text-[#0b1f3a] md:hidden">
+              ☰
+            </button>
 
           <nav className="hidden items-center gap-8 md:flex">
             <a href="#home" className="font-medium hover:text-[#c9a227]">
