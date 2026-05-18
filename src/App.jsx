@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import ecoImg from "./assets/gallery/eco/eco.jpeg";
 import eco1 from "./assets/gallery/eco/eco1.jpeg";
@@ -40,6 +42,13 @@ export default function ShivaSaiSchoolWebsite() {
        window.onscroll = () => {
        setMobileMenu(false);
       };
+
+        useEffect(() => {
+        AOS.init({
+        duration: 1000,
+        once: true,
+       });
+   }, []);
 return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
 
@@ -261,7 +270,7 @@ return (
         <img
           src="/hero-school.jpg"
           alt="School Campus"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover animate-heroZoom"
         />
 
         <div className="absolute inset-0 bg-gradient-to-r from-[#0b1f3a]/80 to-black/30" />
@@ -340,7 +349,11 @@ return (
 </section>
 
       {/* Principal Section */}
-      <section id="about" className="bg-white py-24">
+      <section
+          id="about"
+          data-aos="fade-up"
+          className="bg-white py-24"
+>
         <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2 md:items-center">
           <div className="text-center">
             <img
@@ -383,7 +396,11 @@ return (
     </section>
 
        {/* Highlights */}
-       <section id="academics" className="bg-[#0b1f3a] py-20 text-white">
+       <section
+          id="academics"
+          data-aos="fade-right"
+          className="bg-[#0b1f3a] py-20 text-white"
+>
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-14 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -413,7 +430,11 @@ return (
       </section>
      
       {/* Why Choose Us */}
-      <section id="facilities" className="bg-white py-24">
+     <section
+          id="facilities"
+          data-aos="zoom-in"
+          className="bg-white py-24"
+>
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -494,7 +515,11 @@ return (
       </section>
 
     {/* Gallery */}
-    <section id="gallery" className="bg-white py-24">
+    <section
+        id="gallery"
+        data-aos="fade-left"
+        className="bg-white py-24"
+>
     <div className="mx-auto max-w-7xl px-6">  
     <div className="text-center">
       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -605,7 +630,11 @@ return (
       </section> 
       
       {/* Contact */}
-      <section id="contact" className="bg-[#0b1f3a] py-24 text-white">
+      <section
+        id="contact"
+        data-aos="fade-up"
+        className="bg-[#0b1f3a] py-24 text-white"
+>
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c9a227]">
@@ -740,8 +769,21 @@ return (
       transform: scale(1);
       opacity: 1;
   }
- }
-        .animate-marquee {
+}
+    .animate-heroZoom {
+       animation: heroZoom 12s ease-in-out infinite alternate;
+    }
+
+    @keyframes heroZoom {
+      from {
+        transform: scale(1);
+      }
+
+      to {
+       transform: scale(1.1);
+      }
+    }
+       .animate-marquee {
           display: inline-block;
           animation: marquee 18s linear infinite;
         }
