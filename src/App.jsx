@@ -381,12 +381,12 @@ return (
               Nurturing Excellence Through Education
             </h3>   
               <p className="mt-2 leading-8 text-slate-700">
-              At SHIVA SAI SCHOOL, we believe education is the foundation for a
+              "At SHIVA SAI SCHOOL, we believe education is the foundation for a
               successful and responsible future. Our mission is to create a
               disciplined, inspiring, and academically strong environment where
               every child can grow with confidence and values. 
               We focus on holistic development through modern teaching methods,
-              activity-based learning, and personal attention for every student.
+              activity-based learning, and personal attention for every student"
             </p>
           
           </div>
