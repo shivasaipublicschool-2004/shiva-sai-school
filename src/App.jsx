@@ -368,7 +368,7 @@ return (
             </h2>
 
             <p className="mt-2 text-[#c9a227]">
-              M.A. (English), B.Ed.
+              M.A. (Economics), B.Ed.
             </p>
           </div>
 
@@ -659,7 +659,9 @@ return (
      <i className="fas fa-envelope text-blue-400 text-xl w-6"></i>
 
      <a
-        href="mailto:shivasaipublicschool1@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=shivasaipublicschool1@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
         className="hover:text-blue-300 transition"
       >
        shivasaipublicschool1@gmail.com
