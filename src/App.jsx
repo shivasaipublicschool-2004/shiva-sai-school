@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import ecoImg from "./assets/gallery/eco/eco.jpeg";
@@ -21,33 +21,12 @@ import campus6 from "./assets/gallery/campus/campus6.jpeg";
 
 export default function ShivaSaiSchoolWebsite() {
     const [mobileMenu, setMobileMenu] = useState(false);
-    useEffect(() => {
-    const addScript = document.createElement("script");
-
-     addScript.src =
-     "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-
-   addScript.async = true;
-
-    window.googleTranslateElementInit = () => {
-      new window.google.translate.TranslateElement(
-       { 
-         pageLanguage: "en",
-       },
-         "google_translate_element"
-            );
-         };
-
-       document.body.appendChild(addScript);
-       }, []);
        window.onscroll = () => {
        setMobileMenu(false);
       };
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
-      <div className="bg-[#0b1f3a] px-4 py-2 text-right">
-      <div id="google_translate_element"></div>
-    </div>
+
       {/* Navbar */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
