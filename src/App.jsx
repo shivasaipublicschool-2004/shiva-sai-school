@@ -28,6 +28,7 @@ const activityGallery = [activityImg, activityVideo2];
 const affordableGallery = [affordable1];
 
 export default function ShivaSaiSchoolWebsite() {
+  const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
       
