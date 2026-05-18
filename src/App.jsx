@@ -358,6 +358,7 @@ return (
           <div className="text-center">
             <img
               src="/principal.jpg"
+              onClick={() => setSelectedImage("/principal.jpg")}
               alt="Principal"
               className="mx-auto h-[380px] w-[300px] rounded-3xl object-cover shadow-2xl animate-float transition duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(201,162,39,0.6)]"
             />
