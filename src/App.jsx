@@ -593,6 +593,19 @@ export default function ShivaSaiSchoolWebsite() {
         </div>
       </section>
 
+      {selectedImage && (
+  <div
+    className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-6"
+    onClick={() => setSelectedImage(null)}
+  >
+    <img
+      src={selectedImage}
+      alt="Selected"
+      className="max-h-[90vh] max-w-[90vw] rounded-3xl shadow-2xl"
+    />
+  </div>
+)}
+
       {/* Footer */}
       <footer className="border-t border-white/10 bg-[#081426] py-8 text-center text-sm text-slate-400">
         © 2026 SHIVA SAI SCHOOL. All Rights Reserved.
