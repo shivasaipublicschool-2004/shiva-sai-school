@@ -24,8 +24,12 @@ export default function ShivaSaiSchoolWebsite() {
      const [mobileMenu, setMobileMenu] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
     const [notice, setNotice] = useState(
-  "📢 Admissions Open for Academic Year 2026–27"
-);
+    "📢 Admissions Open for Academic Year 2026–27"
+  );
+     const [notice2, setNotice2] = useState(
+    "📚 Special Navodaya Coaching Classes Available"
+  );  
+  
 
 const [showAdmin, setShowAdmin] = useState(false);
        window.onscroll = () => {
@@ -187,7 +191,7 @@ return (
       <div className="space-y-4">
        <div>
         <label className="block font-semibold mb-2">
-           Change Notice Board Text
+           Change First Notice 
         </label>
 
          <input
@@ -197,6 +201,18 @@ return (
            className="w-full rounded-xl border border-slate-300 p-3 outline-none"
         />
         </div>
+        <div>
+         <label className="block font-semibold mb-2">
+            Change Second Notice
+             </label>
+
+             <input
+             type="text"
+             value={notice2}
+             onChange={(e) => setNotice2(e.target.value)}
+             className="w-full rounded-xl border border-slate-300 p-3 outline-none"
+             />
+         </div>
       </div>
     </div>
 )}
