@@ -41,7 +41,7 @@ export default function ShivaSaiSchoolWebsite() {
                 SHIVA SAI SCHOOL
               </h1>
               <p className="text-sm text-slate-600">
-                Bridging Knowledge and Wisdom
+                Ramareddy 
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@ export default function ShivaSaiSchoolWebsite() {
               </button>
 
               <button className="rounded-full border border-white/40 bg-white/10 px-8 py-4 font-semibold backdrop-blur transition hover:bg-white hover:text-black">
-                Our Alumni
+                10K+ Successful Alumni
               </button>
             </div>
           </div>
