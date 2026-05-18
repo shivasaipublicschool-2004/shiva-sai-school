@@ -87,6 +87,34 @@ export default function ShivaSaiSchoolWebsite() {
               </div>
             </div>
           </nav>
+          {mobileMenu && (
+            <div className="absolute left-0 top-full w-full bg-white shadow-xl md:hidden">
+
+              <div className="flex flex-col p-6 space-y-4">
+
+                <a href="#about" className="text-lg font-medium">
+                   About School
+                </a>
+
+               <a href="#academics" className="text-lg font-medium">
+                   Academics
+               </a>
+
+               <a href="#facilities" className="text-lg font-medium">
+                  Facilities
+               </a>
+
+               <a href="#gallery" className="text-lg font-medium">
+                  Gallery
+               </a>
+
+              <a href="#contact" className="text-lg font-medium">
+                 Contact
+              </a>
+
+    </div>
+  </div>
+)}
         </div>
       </header>
 
