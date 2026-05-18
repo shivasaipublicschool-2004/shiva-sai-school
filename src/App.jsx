@@ -42,8 +42,6 @@ export default function ShivaSaiSchoolWebsite() {
       "Academic Excellence With Strong Values"
    );
 
-    const [loading, setLoading] = useState(true);
-
        window.onscroll = () => {
        setMobileMenu(false);
   };
@@ -78,6 +76,7 @@ useEffect(() => {
      </div>
    );
  }
+    return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
 
       {/* Navbar */}
