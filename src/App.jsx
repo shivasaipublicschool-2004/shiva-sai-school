@@ -664,10 +664,11 @@ useEffect(() => {
               'What are the school timings?',
               'Is English medium available?',
             ].map((faq) => (
+             
               <details
-                key={faq}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
+                  key={faq}
+                  className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:shadow-xl"
+                > 
                 <summary className="cursor-pointer text-lg font-semibold text-[#0b1f3a]">
                   {faq}
                 </summary>
