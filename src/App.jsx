@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import ecoImg from "./assets/gallery/eco/eco.jpeg";
@@ -199,9 +200,22 @@ export default function ShivaSaiSchoolWebsite() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg text-slate-200 md:text-xl">
-              Providing quality education since 2004 with strong discipline,
-              modern learning, and a safe academic environment.
+                <Typewriter
+                  words={[
+                  "Providing quality education since 2004...",
+                  "Strong discipline and modern learning...",
+                  "Safe academic environment for students...",
+                  "Building knowledge, values, and confidence...",
+                 ]}
+                 loop={0}
+                 cursor
+                 cursorStyle="|"
+                 typeSpeed={70}
+                 deleteSpeed={40}
+                 delaySpeed={2000}
+                 />
             </p>
+
 
             <div className="mt-10 flex flex-wrap gap-4">
               <button className="rounded-full bg-[#c9a227] px-8 py-4 font-semibold text-black transition hover:scale-105">
