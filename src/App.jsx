@@ -23,10 +23,15 @@ import campus6 from "./assets/gallery/campus/campus6.jpeg";
 export default function ShivaSaiSchoolWebsite() {
      const [mobileMenu, setMobileMenu] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
+    const [notice, setNotice] = useState(
+  "📢 Admissions Open for Academic Year 2026–27"
+);
+
+const [showAdmin, setShowAdmin] = useState(false);
        window.onscroll = () => {
        setMobileMenu(false);
       };
-  return (
+return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
 
       {/* Navbar */}
