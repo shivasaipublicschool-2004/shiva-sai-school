@@ -50,21 +50,6 @@ export default function ShivaSaiSchoolWebsite() {
        setMobileMenu(false);
   };
 
-      useEffect(() => {
-      const moveCursor = (e) => {
-      setCursorPosition({
-      x: e.clientX,
-      y: e.clientY,
-    });
-  };
-
-         window.addEventListener("mousemove", moveCursor);
-
-          return () => {
-         window.removeEventListener("mousemove", moveCursor);
-   };
- }, []);
- 
        useEffect(() => {
        AOS.init({
        duration: 1000,
@@ -110,12 +95,8 @@ useEffect(() => {
     );
   }
    return (
-      <div
-         className="min-h-screen bg-[#fdfbf7] text-slate-900"
-         style={{
-         cursor: "url('/golden-arrow.png'), auto",
-       }}
-     >
+     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
+     
 
       {/* Navbar */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
