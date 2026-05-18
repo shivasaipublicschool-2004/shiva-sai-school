@@ -359,7 +359,7 @@ return (
             <img
               src="/principal.jpg"
               alt="Principal"
-              className="mx-auto h-[380px] w-[300px] rounded-3xl object-cover shadow-2xl"
+              className="mx-auto h-[380px] w-[300px] rounded-3xl object-cover shadow-2xl animate-float transition duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(201,162,39,0.6)]"
             />
 
             <h2 className="mt-6 text-2xl font-bold text-[#0b1f3a]">
@@ -795,6 +795,24 @@ return (
        transform: scale(1.1);
       }
     }
+
+       .animate-float {
+       animation: float 3s ease-in-out infinite;
+    }
+
+      @keyframes float {
+        0% {
+      transform: translateY(0px);
+    }
+
+        50% {
+      transform: translateY(-12px);
+    }
+
+        100% {
+      transform: translateY(0px);
+    }
+  }
        .animate-marquee {
           display: inline-block;
           animation: marquee 18s linear infinite;
