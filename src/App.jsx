@@ -83,7 +83,13 @@ export default function ShivaSaiSchoolWebsite() {
             <div className="absolute left-0 top-full w-full bg-white shadow-xl md:hidden">
 
               <div className="flex flex-col p-6 space-y-4">
-
+                <a
+                   href="#home"
+                   onClick={() => setMobileMenu(false)}
+                   className="text-lg font-medium"
+                   >  
+                     Home
+                </a>
                 <a
                   href="#about"
                   onClick={() => setMobileMenu(false)}
