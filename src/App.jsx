@@ -228,6 +228,18 @@ return (
              className="w-full rounded-xl border border-slate-300 p-3 outline-none"
              />
          </div>
+         <div>
+           <label className="block font-semibold mb-2">
+                Change Why Choose Us Title
+           </label>
+
+               <input
+                 type="text"
+                 value={whyTitle1}
+                 onChange={(e) => setWhyTitle1(e.target.value)}
+                 className="w-full rounded-xl border border-slate-300 p-3 outline-none"
+                />
+           </div>
       </div>
     </div>
 )}
