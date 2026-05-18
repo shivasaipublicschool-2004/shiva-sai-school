@@ -733,6 +733,18 @@ return (
       />
    </div>
 )}
+
+      <button
+       onClick={() =>
+         window.scrollTo({
+           top: 0,
+         behavior: "smooth",
+       })
+     }
+     className="fixed bottom-6 right-6 z-50 rounded-full bg-[#c9a227] p-4 text-2xl font-bold text-black shadow-2xl transition hover:scale-110"
+    >
+      ↑
+      </button>
       {/* Footer */}
       <footer className="border-t border-white/10 bg-[#081426] py-8 text-center text-sm text-slate-400">
         © 2026 SHIVA SAI SCHOOL. All Rights Reserved.
