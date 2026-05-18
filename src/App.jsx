@@ -26,6 +26,10 @@ export default function ShivaSaiSchoolWebsite() {
      const [mobileMenu, setMobileMenu] = useState(false);
      const [loading, setLoading] = useState(true);
     const [selectedImage, setSelectedImage] = useState(null);
+    const [cursorPosition, setCursorPosition] = useState({
+      x: 0,
+      y: 0,
+    });
     const [notice, setNotice] = useState(
     "📢 Admissions Open for Academic Year 2026–27"
   );
@@ -45,6 +49,21 @@ export default function ShivaSaiSchoolWebsite() {
        window.onscroll = () => {
        setMobileMenu(false);
   };
+
+      useEffect(() => {
+      const moveCursor = (e) => {
+      setCursorPosition({
+      x: e.clientX,
+      y: e.clientY,
+    });
+  };
+
+         window.addEventListener("mousemove", moveCursor);
+
+          return () => {
+         window.removeEventListener("mousemove", moveCursor);
+   };
+ }, []);
  
        useEffect(() => {
        AOS.init({
@@ -92,6 +111,13 @@ useEffect(() => {
   }
     return (
     <div className="min-h-screen bg-[#fdfbf7] text-slate-900">
+      <div
+        className="pointer-events-none fixed z-[9999] h-6 w-6 rounded-full bg-[#c9a227]/70 blur-[1px] transition-transform duration-75"
+          style={{
+           left: `${cursorPosition.x - 12}px`,
+           top: `${cursorPosition.y - 12}px`,
+          }}
+      ></div>
 
       {/* Navbar */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
