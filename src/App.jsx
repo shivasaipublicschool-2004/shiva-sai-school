@@ -82,7 +82,7 @@ export default function ShivaSaiSchoolWebsite() {
               </div>
             </div>
           </nav>
-          {mobileMenu && (
+          
             <div
                className={`absolute left-0 top-full z-50 w-full bg-white shadow-xl md:hidden transition-all duration-300 ${
                mobileMenu
@@ -163,7 +163,7 @@ export default function ShivaSaiSchoolWebsite() {
 
     </div>
   </div>
-)}
+
         </div>
       </header>
 
